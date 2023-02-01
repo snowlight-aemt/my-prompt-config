@@ -1,0 +1,8 @@
+[alias]
+	s = status -s
+	l = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)'
+	a = "!git add $(git status -s | fzf -m | awk '{print $2}')"
+ 	br = branch
+ 	co = checkout
+ 	sw = switch
+	ci = commit
