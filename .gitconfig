@@ -6,3 +6,5 @@
  	co = checkout
  	sw = switch
 	ci = commit
+[init]
+        defaultBranch = main
