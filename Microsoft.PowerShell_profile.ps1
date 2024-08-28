@@ -9,6 +9,7 @@ $env:LC_ALL='C.UTF-8'
 	Set-Alias grep 'C:\Program Files\Git\usr\bin\grep'
 	Set-Alias head 'C:\Program Files\Git\usr\bin\head'
 	Set-Alias awk 'C:\Program Files\Git\usr\bin\awk'
+ 	Set-Alias tail 'C:\Program Files\Git\usr\bin\tail'
 
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
